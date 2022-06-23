@@ -3,8 +3,8 @@ class Cars {
     this.NumberOfWheels = NumberOfWheels;
     this.EngineCapacity = EngineCapacity;
     this.color = color;
-   
   }
+  static object ([])
   returnCarsDetails() {
     return `color:${this.NumberOfWheels},Engine Capacity ${this.EngineCapacity},Number Of Wheels${this.NumberOfWheels}`;
   }
